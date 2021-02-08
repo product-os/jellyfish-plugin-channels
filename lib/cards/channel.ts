@@ -1,0 +1,17 @@
+/*
+ * Copyright (C) Balena.io - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited.
+ * Proprietary and confidential.
+ */
+
+module.exports = {
+  slug: 'channel',
+  name: 'Channel',
+  type: 'type@1.0.0',
+  data: {
+    filter: {
+      description: 'Cards matching this filter will be handled by the channel',
+      type: 'object'
+    }
+  }
+}
