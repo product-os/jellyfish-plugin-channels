@@ -4,14 +4,27 @@
  * Proprietary and confidential.
  */
 
-module.exports = {
-  slug: 'channel',
-  name: 'Channel',
-  type: 'type@1.0.0',
-  data: {
-    filter: {
-      description: 'Cards matching this filter will be handled by the channel',
-      type: 'object'
-    }
-  }
-}
+export default {
+	slug: 'channel',
+	name: 'Channel',
+	type: 'type@1.0.0',
+	data: {
+		schema: {
+			type: 'object',
+			required: ['data'],
+			properties: {
+				data: {
+					type: 'object',
+					required: ['filter'],
+					properties: {
+						filter: {
+							description:
+								'Cards matching this filter will be handled by the channel',
+							type: 'object',
+						},
+					},
+				},
+			},
+		},
+	},
+};
