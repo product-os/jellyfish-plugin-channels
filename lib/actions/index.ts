@@ -4,6 +4,6 @@
  * Proprietary and confidential.
  */
 
-module.exports = [
-  require('./action-bootstrap-channel')
-]
+import actionBootstrapChannel from './action-bootstrap-channel';
+
+export default [actionBootstrapChannel];

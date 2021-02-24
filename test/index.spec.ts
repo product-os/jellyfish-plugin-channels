@@ -4,33 +4,35 @@
  * Proprietary and confidential.
  */
 
-const _ = require('lodash')
-const coreMixins = require('@balena/jellyfish-core/lib/cards/mixins')
-const ChannelsPlugin = require('./index')
+import _ from 'lodash';
+import coreMixins from '@balena/jellyfish-core/lib/cards/mixins';
+import { ChannelsPlugin } from '../lib/index';
 
 const context = {
-  id: 'jellyfish-plugin-channels-test'
-}
+	id: 'jellyfish-plugin-channels-test',
+};
 
-const plugin = new ChannelsPlugin()
+const plugin = new ChannelsPlugin();
 
 test('Plugin returns collection of cards', () => {
-  const cards = plugin.getCards(context, coreMixins)
+	const cards = plugin.getCards(context, coreMixins);
 
-  expect(_.isEmpty(cards)).toBeFalsy()
-})
+	expect(_.isEmpty(cards)).toBeFalsy();
+});
 
 test('Expected cards are loaded', () => {
-  const cards = plugin.getCards(context, coreMixins)
+	const cards = plugin.getCards(context, coreMixins);
 
-  // Sanity check
-  expect(cards.channel.name).toBe('Channel')
-  expect(cards['action-bootstrap-channel'].slug).toBe('action-bootstrap-channel')
-})
+	// Sanity check
+	expect(cards.channel.name).toBe('Channel');
+	expect(cards['action-bootstrap-channel'].slug).toBe(
+		'action-bootstrap-channel',
+	);
+});
 
 test('Expected actions are loaded', () => {
-  const actions = plugin.getActions(context, coreMixins)
+	const actions = plugin.getActions(context);
 
-  // Sanity check
-  expect(typeof actions['action-bootstrap-channel'].handler).toBe('function')
-})
+	// Sanity check
+	expect(typeof actions['action-bootstrap-channel'].handler).toBe('function');
+});

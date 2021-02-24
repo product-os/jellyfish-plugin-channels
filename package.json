@@ -7,7 +7,7 @@
     "url": "https://github.com/product-os/jellyfish-plugin-channels.git"
   },
   "engines": {
-    "node": ">=14.2.0"
+    "node": ">=12.15.0"
   },
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -46,14 +46,14 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-logger": "^1.0.22",
-    "@balena/jellyfish-plugin-base": "^1.2.5",
-    "@balena/jellyfish-uuid": "^1.0.62",
-    "lodash": "^4.17.20"
+    "@balena/jellyfish-logger": "^1.0.33",
+    "@balena/jellyfish-plugin-base": "^1.2.21",
+    "lodash": "^4.17.21",
+    "slugify": "^1.4.7"
   },
   "devDependencies": {
     "@balena/lint": "^5.4.1",
-    "@balena/jellyfish-core": "^2.0.0",
+    "@balena/jellyfish-core": "^2.0.24",
     "@types/jest": "^26.0.20",
     "@types/sinon": "^9.0.10",
     "catch-uncommitted": "^1.6.2",
