@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.0.2 - 2021-02-26
+
+* patch: Update non-major [Renovate Bot]
+
 ## 1.0.1 - 2021-02-25
 
 * patch: Update dependency shellcheck to v1 [Renovate Bot]
