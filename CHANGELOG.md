@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.0.10 - 2021-03-01
+
+* Ensure channel view card is always fetched [Graham McCulloch]
+
 ## 1.0.9 - 2021-03-01
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^1.2.28 [Renovate Bot]
