@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.0.11 - 2021-03-01
+
+* patch: Update dependency @balena/jellyfish-logger to ^1.0.40 [Renovate Bot]
+
 ## 1.0.10 - 2021-03-01
 
 * Ensure channel view card is always fetched [Graham McCulloch]
