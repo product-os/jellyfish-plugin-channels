@@ -127,7 +127,7 @@ const handler = async (
 	await Promise.all(
 		views.map(async (viewCardBase: any) => {
 			// Save the view card
-			const viewCard = await context.replaceCard(
+			let viewCard = await context.replaceCard(
 				session,
 				viewTypeCard,
 				{
@@ -138,6 +138,15 @@ const handler = async (
 				},
 				viewCardBase,
 			);
+
+			// If the view card already exists and no changes were made, replaceCard returns null,
+			// so we just fetch the card by slug.
+			if (viewCard === null) {
+				viewCard = await context.getCardBySlug(
+					session,
+					`${viewCardBase.slug}@${viewCardBase.version}`,
+				);
+			}
 
 			// And create a link card between the view and the channel
 			return context.replaceCard(
