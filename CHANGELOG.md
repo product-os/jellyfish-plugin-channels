@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.0.16 - 2021-03-04
+
+* patch: Update dependency typescript to ^4.2.3 [Renovate Bot]
+
 ## 1.0.15 - 2021-03-04
 
 * patch: Update dependency ts-jest to ^26.5.3 [Renovate Bot]
