@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.0.18 - 2021-03-07
+
+* patch: Update dependency @types/sinon to ^9.0.11 [Renovate Bot]
+
 ## 1.0.17 - 2021-03-06
 
 * patch: Update dependency typedoc to ^0.20.30 [Renovate Bot]
