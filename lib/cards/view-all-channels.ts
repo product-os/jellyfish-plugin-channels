@@ -29,7 +29,6 @@ export default {
 					additionalProperties: true,
 				},
 			},
-		],
-		lenses: ['lens-table', 'lens-list', 'lens-kanban'],
+		]
 	},
 };
