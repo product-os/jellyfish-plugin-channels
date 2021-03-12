@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.0 - 2021-03-12
+
+* Remove 'All channels' view as we don't use it. [Graham McCulloch]
+
 ## 1.0.23 - 2021-03-12
 
 * patch: Update dependency @balena/jellyfish-logger to ^1.0.46 [Renovate Bot]
