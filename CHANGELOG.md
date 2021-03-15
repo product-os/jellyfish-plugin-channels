@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.6 - 2021-03-15
+
+* patch: Update dependency @balena/jellyfish-logger to ^1.0.49 [Renovate Bot]
+
 ## 1.1.5 - 2021-03-14
 
 * patch: Update dependency typedoc to ^0.20.32 [Renovate Bot]
