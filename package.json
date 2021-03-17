@@ -55,7 +55,7 @@
     "@balena/jellycheck": "^0.1.1",
     "@balena/jellyfish-core": "^2.0.24",
     "@balena/lint": "^5.4.1",
-    "@types/jest": "^26.0.20",
+    "@types/jest": "^26.0.21",
     "@types/sinon": "^9.0.11",
     "catch-uncommitted": "^1.6.2",
     "depcheck": "^1.4.0",
