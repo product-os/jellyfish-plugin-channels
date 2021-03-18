@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.12 - 2021-03-18
+
+* Test jellyfish-core/pull/347 [Josh Bowling]
+
 ## 1.1.11 - 2021-03-17
 
 * patch: Update dependency @types/jest to ^26.0.21 [Renovate Bot]
