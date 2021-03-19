@@ -4,7 +4,6 @@
  * Proprietary and confidential.
  */
 
-import _ from 'lodash';
 import sinon from 'sinon';
 import { v4 as uuid } from 'uuid';
 import {
@@ -12,7 +11,7 @@ import {
 	ContractSummary,
 } from '@balena/jellyfish-types/build/core';
 import { testChannel, viewCardType, linkCardType } from '../fixtures';
-import actionBootStrapChannel from '../../lib/actions/action-bootstrap-channel';
+import { actionBootstrapChannel } from '../../lib/actions/action-bootstrap-channel';
 
 const sandbox = sinon.createSandbox();
 
@@ -29,11 +28,11 @@ describe('action-bootstrap-channel', () => {
 				_session: any,
 				_typeCard: any,
 				_options: any,
-				cardBase: ContractDefinition,
+				card: ContractDefinition,
 			) => {
 				return {
-					id: `${cardBase.type.split('@')[0]}-${uuid()}`,
-					...cardBase,
+					id: `${card.type.split('@')[0]}-${uuid()}`,
+					...card,
 				};
 			},
 		}),
@@ -56,16 +55,15 @@ describe('action-bootstrap-channel', () => {
 
 	test('action-bootstrap-channel creates 3 views and links them to the channel', async () => {
 		const replaceCardSpy = sandbox.spy(context, 'replaceCard');
-		const result = await actionBootStrapChannel.handler(
+		const testChannelSummary = (await actionBootstrapChannel.handler(
 			session,
 			context,
 			testChannel,
 			request,
-		);
-		expect(result).not.toBeNull();
-		const testChannelSummary = result as ContractSummary;
+		)) as ContractSummary;
+		expect(testChannelSummary).not.toBeNull();
 
-		expect(testChannelSummary.id).toEqual(testChannel.id);
+		expect(testChannelSummary?.id).toEqual(testChannel?.id);
 		expect(replaceCardSpy.callCount).toBe(6);
 
 		const [

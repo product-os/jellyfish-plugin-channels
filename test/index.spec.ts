@@ -4,7 +4,7 @@
  * Proprietary and confidential.
  */
 
-import _ from 'lodash';
+import isEmpty from 'lodash/isEmpty';
 import coreMixins from '@balena/jellyfish-core/lib/cards/mixins';
 import { ChannelsPlugin } from '../lib/index';
 
@@ -17,7 +17,7 @@ const plugin = new ChannelsPlugin();
 test('Plugin returns collection of cards', () => {
 	const cards = plugin.getCards(context, coreMixins);
 
-	expect(_.isEmpty(cards)).toBeFalsy();
+	expect(isEmpty(cards)).toBeFalsy();
 });
 
 test('Expected cards are loaded', () => {

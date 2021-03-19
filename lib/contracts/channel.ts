@@ -4,7 +4,12 @@
  * Proprietary and confidential.
  */
 
-export default {
+import {
+	ContractDefinition,
+	TypeData,
+} from '@balena/jellyfish-types/build/core';
+
+export const channel: ContractDefinition<TypeData> = {
 	slug: 'channel',
 	name: 'Channel',
 	type: 'type@1.0.0',

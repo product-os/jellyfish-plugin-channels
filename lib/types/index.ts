@@ -4,8 +4,4 @@
  * Proprietary and confidential.
  */
 
-// Temporary type definitions until jellyfish-logger is converted to TypeScript
-
-declare module '@balena/jellyfish-logger' {
-	function getLogger(name: string): any;
-}
+export * from './contracts';
