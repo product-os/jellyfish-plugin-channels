@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.16 - 2021-03-20
+
+* patch: Update dependency slugify to ^1.5.0 [Renovate Bot]
+
 ## 1.1.15 - 2021-03-19
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^1.2.35 [Renovate Bot]
