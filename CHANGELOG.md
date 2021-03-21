@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.17 - 2021-03-21
+
+* patch: Update non-major [Renovate Bot]
+
 ## 1.1.16 - 2021-03-20
 
 * patch: Update dependency slugify to ^1.5.0 [Renovate Bot]
