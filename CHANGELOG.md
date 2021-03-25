@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.26 - 2021-03-25
+
+* patch: Update dependency typedoc to ^0.20.34 [Renovate Bot]
+
 ## 1.1.25 - 2021-03-25
 
 * Publish docs with GitHub action [Josh Bowling]
