@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.29 - 2021-03-31
+
+* patch: Update dependency sinon to v10 [Renovate Bot]
+
 ## 1.1.28 - 2021-03-31
 
 * Switch from husky to simple-git-hooks [Josh Bowling]
