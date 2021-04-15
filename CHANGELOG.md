@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.40 - 2021-04-14
+
+* patch: Update dependency @types/sinon to v10 [Renovate Bot]
+
 ## 1.1.39 - 2021-04-14
 
 * patch: Update dependency @balena/jellyfish-logger to ^2.1.25 [Renovate Bot]
