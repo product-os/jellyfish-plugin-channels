@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.44 - 2021-04-19
+
+* Bump jellyfish dev deps [Josh Bowling]
+
 ## 1.1.43 - 2021-04-15
 
 * patch: Update dependency @balena/jellyfish-logger to ^2.1.27 [Renovate Bot]
