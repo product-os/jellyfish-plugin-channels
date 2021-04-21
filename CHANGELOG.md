@@ -4,6 +4,11 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.46 - 2021-04-21
+
+* Update contract type imports [Josh Bowling]
+* patch: Update dependency @balena/jellyfish-plugin-base to v2 [Renovate Bot]
+
 ## 1.1.45 - 2021-04-20
 
 * patch: Update dependency @balena/jellyfish-logger to ^2.1.28 [Renovate Bot]
