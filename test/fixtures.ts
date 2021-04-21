@@ -42,4 +42,10 @@ export const testChannel = {
 			},
 		},
 	},
+	active: true,
+	tags: [],
+	markers: [],
+	requires: [],
+	capabilities: [],
+	created_at: new Date().toISOString(),
 };

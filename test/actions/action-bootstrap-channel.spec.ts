@@ -7,7 +7,10 @@
 import _ from 'lodash';
 import sinon from 'sinon';
 import { v4 as uuid } from 'uuid';
-import { CardBase, CardSummary } from '@balena/jellyfish-plugin-base';
+import {
+	ContractDefinition,
+	ContractSummary,
+} from '@balena/jellyfish-types/build/core';
 import { testChannel, viewCardType, linkCardType } from '../fixtures';
 import actionBootStrapChannel from '../../lib/actions/action-bootstrap-channel';
 
@@ -26,7 +29,7 @@ describe('action-bootstrap-channel', () => {
 				_session: any,
 				_typeCard: any,
 				_options: any,
-				cardBase: CardBase,
+				cardBase: ContractDefinition,
 			) => {
 				return {
 					id: `${cardBase.type.split('@')[0]}-${uuid()}`,
@@ -60,7 +63,7 @@ describe('action-bootstrap-channel', () => {
 			request,
 		);
 		expect(result).not.toBeNull();
-		const testChannelSummary = result as CardSummary;
+		const testChannelSummary = result as ContractSummary;
 
 		expect(testChannelSummary.id).toEqual(testChannel.id);
 		expect(replaceCardSpy.callCount).toBe(6);

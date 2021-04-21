@@ -6,7 +6,8 @@
 
 import _ from 'lodash';
 import slugify from 'slugify';
-import { Card, ActionFile } from '@balena/jellyfish-plugin-base';
+import type { ActionFile } from '@balena/jellyfish-plugin-base';
+import type { Contract } from '@balena/jellyfish-types/build/core';
 import { getLogger } from '@balena/jellyfish-logger';
 
 const logger = getLogger(__filename);
@@ -109,7 +110,7 @@ const createUnownedView = (channelCard: any) => {
 const handler = async (
 	session: any,
 	context: any,
-	card: Card,
+	card: Contract,
 	request: any,
 ) => {
 	logger.info(request.context, `Bootstrapping channel '${card.slug}'`);
