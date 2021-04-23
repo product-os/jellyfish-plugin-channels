@@ -47,7 +47,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@balena/jellyfish-logger": "^2.1.28",
-    "@balena/jellyfish-plugin-base": "^2.1.9",
+    "@balena/jellyfish-plugin-base": "^2.1.11",
     "lodash": "^4.17.21",
     "slugify": "^1.5.0"
   },
@@ -67,7 +67,7 @@
     "simple-git-hooks": "^2.3.1",
     "sinon": "^10.0.1",
     "ts-jest": "^26.5.5",
-    "typedoc": "^0.20.35",
+    "typedoc": "^0.20.36",
     "typescript": "^4.2.4"
   },
   "simple-git-hooks": {
