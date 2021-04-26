@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.66 - 2021-04-26
+
+* patch: Update non-major [Renovate Bot]
+
 ## 1.1.65 - 2021-04-26
 
 * patch: Update dependency @types/jest to ^26.0.23 [Renovate Bot]
