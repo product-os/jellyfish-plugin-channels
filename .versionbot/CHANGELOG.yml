@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @types/jest to ^26.0.23'
+      hash: 54c47b6039a9ba1dd841f2a0a460c8a5bb798ee9
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.1.65
+  date: 2021-04-26T11:52:52.397Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.22'
       hash: 33c21aa4b4a8ccd57971b455a62b96d9145284ea
       body: ''
