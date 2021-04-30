@@ -4,53 +4,60 @@
  * Proprietary and confidential.
  */
 
-import _ from 'lodash';
+import merge from 'lodash/merge';
 import slugify from 'slugify';
 import type { ActionFile } from '@balena/jellyfish-plugin-base';
-import type { Contract } from '@balena/jellyfish-types/build/core';
 import { getLogger } from '@balena/jellyfish-logger';
+import type { ContractDefinition } from '@balena/jellyfish-types/build/core';
+import type { ChannelContract } from '../types';
 
 const logger = getLogger(__filename);
 
-const capitalizeFirst = (str: string) => {
+const capitalizeFirst = (str: string): string => {
 	return `${str.charAt(0).toUpperCase()}${str.slice(1)}`;
 };
 
-const commonView = (channelCard: any): any => {
+// TS-TODO: the return type should be Partial<ViewContractDefinition>
+const commonView = (
+	channelContract: ChannelContract,
+): Partial<ContractDefinition> => {
 	return {
 		version: '1.0.0',
 		type: 'view@1.0.0',
 		markers: ['org-balena'],
 		tags: [],
-		links: {},
 		active: true,
 		data: {
-			namespace: channelCard.name,
+			namespace: channelContract.name,
 		},
 		requires: [],
 		capabilities: [],
 	};
 };
 
-const createViewAll = (channelCard: any) => {
-	const channelName = channelCard.name.toLowerCase();
-	return _.merge({}, commonView(channelCard), {
+const createViewAll = (
+	channelContract: ChannelContract,
+): Partial<ContractDefinition> => {
+	const channelName = channelContract.name!.toLowerCase();
+	return merge({}, commonView(channelContract), {
 		slug: `view-all-${slugify(channelName)}`,
 		name: `All ${channelName}`,
 		data: {
-			allOf: [channelCard.data.filter],
+			allOf: [channelContract.data.filter],
 		},
 	});
 };
 
-const createOwnedByMeView = (channelCard: any) => {
-	const channelName = channelCard.name.toLowerCase();
-	return _.merge({}, commonView(channelCard), {
+const createOwnedByMeView = (
+	channelContract: ChannelContract,
+): Partial<ContractDefinition> => {
+	const channelName = channelContract.name!.toLowerCase();
+	return merge({}, commonView(channelContract), {
 		slug: `view-${slugify(channelName)}-owned-by-me`,
 		name: `${capitalizeFirst(channelName)} owned by me`,
 		data: {
 			allOf: [
-				channelCard.data.filter,
+				channelContract.data.filter,
 				{
 					name: 'Cards owned by me',
 					schema: {
@@ -77,14 +84,16 @@ const createOwnedByMeView = (channelCard: any) => {
 	});
 };
 
-const createUnownedView = (channelCard: any) => {
-	const channelName = channelCard.name.toLowerCase();
-	return _.merge({}, commonView(channelCard), {
+const createUnownedView = (
+	channelContract: ChannelContract,
+): Partial<ContractDefinition> => {
+	const channelName = channelContract.name!.toLowerCase();
+	return merge({}, commonView(channelContract), {
 		slug: `view-unowned-${slugify(channelName)}`,
 		name: `Unowned ${channelName}`,
 		data: {
 			allOf: [
-				channelCard.data.filter,
+				channelContract.data.filter,
 				{
 					name: 'Unowned cards',
 					schema: {
@@ -107,11 +116,12 @@ const createUnownedView = (channelCard: any) => {
 	});
 };
 
-const handler = async (
-	session: any,
-	context: any,
-	card: Contract,
-	request: any,
+// TS-TODO: ActionFile should be generic so we can specify the contract data type
+const handler: ActionFile['handler'] = async (
+	session,
+	context,
+	card,
+	request,
 ) => {
 	logger.info(request.context, `Bootstrapping channel '${card.slug}'`);
 
@@ -120,9 +130,9 @@ const handler = async (
 
 	// Create views based on the channel's base filter
 	const views = [
-		createViewAll(card),
-		createOwnedByMeView(card),
-		createUnownedView(card),
+		createViewAll(card as ChannelContract),
+		createOwnedByMeView(card as ChannelContract),
+		createUnownedView(card as ChannelContract),
 	];
 
 	await Promise.all(
@@ -189,7 +199,7 @@ const handler = async (
 	};
 };
 
-const action: ActionFile = {
+export const actionBootstrapChannel: ActionFile = {
 	handler,
 	card: {
 		slug: 'action-bootstrap-channel',
@@ -210,5 +220,3 @@ const action: ActionFile = {
 		},
 	},
 };
-
-export default action;

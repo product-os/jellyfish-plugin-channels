@@ -22,6 +22,11 @@ export const testChannel = {
 	name: 'Test Cards',
 	type: 'channel@1.0.0',
 	version: '1.0.0',
+	tags: [],
+	markers: [],
+	links: {},
+	created_at: '2021-03-18T23:29:51.132Z',
+	active: true,
 	data: {
 		filter: {
 			name: 'Test cards',
@@ -42,10 +47,6 @@ export const testChannel = {
 			},
 		},
 	},
-	active: true,
-	tags: [],
-	markers: [],
 	requires: [],
 	capabilities: [],
-	created_at: new Date().toISOString(),
 };

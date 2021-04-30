@@ -4,7 +4,10 @@
  * Proprietary and confidential.
  */
 
-export default {
+import { ContractDefinition } from '@balena/jellyfish-types/build/core';
+import { TriggeredActionData } from '@balena/jellyfish-types/build/worker';
+
+export const triggeredActionBootstrapChannel: ContractDefinition<TriggeredActionData> = {
 	slug: 'triggered-action-bootstrap-channel',
 	type: 'triggered-action@1.0.0',
 	name: 'Triggered action for bootstrapping a channel',

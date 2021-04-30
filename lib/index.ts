@@ -5,8 +5,13 @@
  */
 
 import { JellyfishPluginBase } from '@balena/jellyfish-plugin-base';
-import cards from './cards';
-import actions from './actions';
+import { contracts } from './contracts';
+import { actions } from './actions';
+
+// tslint:disable-next-line: no-var-requires
+const { version } = require('../package.json');
+
+export * from './types';
 
 /**
  * The Channels Jellyfish plugin.
@@ -16,8 +21,8 @@ export class ChannelsPlugin extends JellyfishPluginBase {
 		super({
 			slug: 'jellyfish-plugin-channels',
 			name: 'Channels Plugin',
-			version: '1.0.0',
-			cards,
+			version,
+			cards: contracts,
 			actions,
 		});
 	}
