@@ -1,4 +1,18 @@
 - commits:
+    - subject: Use interfaces from jellyfish-types
+      hash: e90d0de2ca03357aa801b88ed5008905adbbb89f
+      body: |
+        Additionally Auto-generate type contract interfaces
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 1.1.83
+  date: 2021-04-30T15:40:00.966Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.39'
       hash: 711f82fd072de854145973c759f5cc500f1c9351
       body: ''
