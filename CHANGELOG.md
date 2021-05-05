@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.90 - 2021-05-05
+
+* patch: Update non-major [Renovate Bot]
+
 ## 1.1.89 - 2021-05-05
 
 * patch: Update dependency catch-uncommitted to v2 [Renovate Bot]
