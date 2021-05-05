@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update non-major'
+      hash: 02e8d3104a6b4a48861aea165fa6641163c10176
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.1.84
+  date: 2021-05-05T10:02:50.638Z
+- commits:
     - subject: Use interfaces from jellyfish-types
       hash: e90d0de2ca03357aa801b88ed5008905adbbb89f
       body: |
