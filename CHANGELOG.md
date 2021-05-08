@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.94 - 2021-05-08
+
+* patch: Update non-major [Renovate Bot]
+
 ## 1.1.93 - 2021-05-07
 
 * patch: Update dependency lint-staged to v11 [Renovate Bot]
