@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.96 - 2021-05-08
+
+* patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.82 [Renovate Bot]
+
 ## 1.1.95 - 2021-05-08
 
 * patch: Update non-major [Renovate Bot]
