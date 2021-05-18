@@ -6,7 +6,13 @@
 
 // Temporary type definitions until jellyfish-core is converted to TypeScript
 
-declare module '@balena/jellyfish-core/lib/cards/mixins' {
-	function mixin(mixins: ContractDefinition[]): (card: ContractDefinition) => ContractDefinition;
+declare module '@balena/jellyfish-core' {
+	function mixin(
+		mixins: ContractDefinition[],
+	): (card: ContractDefinition) => ContractDefinition;
 	function initialize(card: ContractDefinition): ContractDefinition;
+	export const cardMixins = {
+		mixin,
+		initialize,
+	};
 }
