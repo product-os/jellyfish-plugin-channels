@@ -5,7 +5,7 @@
  */
 
 import isEmpty from 'lodash/isEmpty';
-import coreMixins from '@balena/jellyfish-core/lib/cards/mixins';
+import { cardMixins as coreMixins } from '@balena/jellyfish-core';
 import { ChannelsPlugin } from '../lib/index';
 
 const context = {
