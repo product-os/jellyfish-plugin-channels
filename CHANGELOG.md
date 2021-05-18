@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.107 - 2021-05-18
+
+* Don't deep import mixins from jellyfish-core [Lucian Buzzo]
+
 ## 1.1.106 - 2021-05-17
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.89 [Renovate Bot]

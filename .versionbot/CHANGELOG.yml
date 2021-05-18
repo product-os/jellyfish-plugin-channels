@@ -1,4 +1,17 @@
 - commits:
+    - subject: Don't deep import mixins from jellyfish-core
+      hash: ae41e128c73395ac91de6ba21143dd1f339bcea2
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 1.1.107
+  date: 2021-05-18T16:28:10.706Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.89'
       hash: 1edfcd74a9c8fe77043ebf540abcc66a0588cf0c
       body: ''
