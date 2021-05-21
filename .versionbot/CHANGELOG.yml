@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.64'
+      hash: 4419bb800be1459d38d8a2709818a838c71190cb
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.1.108
+  date: 2021-05-21T07:51:10.395Z
+- commits:
     - subject: Don't deep import mixins from jellyfish-core
       hash: ae41e128c73395ac91de6ba21143dd1f339bcea2
       body: ''
