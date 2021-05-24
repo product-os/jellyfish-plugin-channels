@@ -58,7 +58,7 @@
     "@balena/jellyfish-config": "^1.0.6",
     "@balena/jellyfish-core": "^2.12.97",
     "@balena/jellyfish-types": "^0.5.33",
-    "@balena/lint": "^6.0.0",
+    "@balena/lint": "^6.1.1",
     "@types/jest": "^26.0.23",
     "@types/sinon": "^10.0.0",
     "catch-uncommitted": "^2.0.0",
