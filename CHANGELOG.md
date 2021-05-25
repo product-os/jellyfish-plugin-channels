@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.128 - 2021-05-25
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 1.1.127 - 2021-05-24
 
 * patch: Update dependency @balena/lint to ^6.1.1 [Renovate Bot]
