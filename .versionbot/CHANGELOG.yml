@@ -1,4 +1,25 @@
 - commits:
+    - subject: Remove temporary (and incorrect!) type declarations
+      hash: b3802b87db6a17dd657741b3b74d6b67f1fe3026
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+    - subject: 'patch: Update internal-patch'
+      hash: 0ec448495be36db0561d062e954bdcedf126230c
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.1.130
+  date: 2021-05-26T08:09:30.498Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 1bb3d05e87e6769b07755b732a12f5284c0ef534
       body: ''
