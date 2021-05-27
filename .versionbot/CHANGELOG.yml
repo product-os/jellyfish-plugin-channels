@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 76e509db2d6de3017cf88833a84147fac130dcd1
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.1.131
+  date: 2021-05-27T03:02:10.575Z
+- commits:
     - subject: Remove temporary (and incorrect!) type declarations
       hash: b3802b87db6a17dd657741b3b74d6b67f1fe3026
       body: ''

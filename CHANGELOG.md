@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.131 - 2021-05-27
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 1.1.130 - 2021-05-26
 
 * Remove temporary (and incorrect!) type declarations [Graham McCulloch]
