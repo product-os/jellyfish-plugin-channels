@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.136 - 2021-05-27
+
+* Update to typescript version of jellyfish-core module [Lucian Buzzo]
+
 ## 1.1.135 - 2021-05-27
 
 * patch: Update internal-patch [Renovate Bot]
