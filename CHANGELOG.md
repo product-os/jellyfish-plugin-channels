@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.158 - 2021-06-03
+
+* Improve lint-staged config [Josh Bowling]
+
 ## 1.1.157 - 2021-06-03
 
 * Remove unnecessary catch-uncommitted [Josh Bowling]
