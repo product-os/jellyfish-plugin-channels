@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.6.2'
+      hash: d0fdc96f7f9a61718778e01a3a6ec492a9b14fc8
+      body: |
+        Update @balena/jellyfish-types from 0.5.137 to 0.6.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.1.159
+  date: 2021-06-05T08:27:23.459Z
+- commits:
     - subject: Improve lint-staged config
       hash: e05e9c24f2d3ae4197ad7410aec28180b9b1ef5d
       body: ''
