@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.164 - 2021-06-06
+
+* patch: Update dependency ts-jest to ^27.0.3 [Renovate Bot]
+
 ## 1.1.163 - 2021-06-05
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.138 [Renovate Bot]
