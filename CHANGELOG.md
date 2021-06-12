@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.177 - 2021-06-12
+
+* patch: Update dependency @balena/jellyfish-types to ^0.6.8 [Renovate Bot]
+
 ## 1.1.176 - 2021-06-12
 
 * patch: Update internal-patch [Renovate Bot]
