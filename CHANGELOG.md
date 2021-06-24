@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.198 - 2021-06-24
+
+* Bump jellyfish-core dependency [Graham McCulloch]
+
 ## 1.1.197 - 2021-06-24
 
 * Add JF peer dependencies [Josh Bowling]
