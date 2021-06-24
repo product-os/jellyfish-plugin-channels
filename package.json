@@ -72,6 +72,9 @@
     "typedoc": "^0.21.0",
     "typescript": "^4.3.4"
   },
+  "peerDependencies": {
+    "@balena/jellyfish-core": "^3.0.0"
+  },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
   }
