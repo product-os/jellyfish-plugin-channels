@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add JF peer dependencies
+      hash: a483a1a5d13c9b34faa493d7286746b436c70200
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.1.197
+  date: 2021-06-24T03:24:51.447Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.24'
       hash: cfbd656cd9c781fae53ba2d9e43c70c857fa5024
       body: ''
