@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.209 - 2021-06-29
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 1.1.208 - 2021-06-29
 
 * Bump node engines specification [Josh Bowling]
