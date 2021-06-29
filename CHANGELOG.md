@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.208 - 2021-06-29
+
+* Bump node engines specification [Josh Bowling]
+
 ## 1.1.207 - 2021-06-27
 
 * patch: Update dependency simple-git-hooks to ^2.5.1 [Renovate Bot]

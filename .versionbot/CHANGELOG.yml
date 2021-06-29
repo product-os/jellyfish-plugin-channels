@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump node engines specification
+      hash: ae5f5c6bb916e6c0cc0a4838219df46c214d2563
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.1.208
+  date: 2021-06-29T08:14:30.751Z
+- commits:
     - subject: 'patch: Update dependency simple-git-hooks to ^2.5.1'
       hash: b69c4df76874485d2c5e625974fed2cd392f792f
       body: ''
