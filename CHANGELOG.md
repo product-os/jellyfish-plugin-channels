@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.243 - 2021-07-17
+
+* patch: Update external-non-major [Renovate Bot]
+
 ## 1.1.242 - 2021-07-17
 
 * Remove whitesource config [Josh Bowling]
