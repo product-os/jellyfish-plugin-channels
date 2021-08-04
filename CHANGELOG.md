@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.260 - 2021-08-04
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 1.1.259 - 2021-08-04
 
 * Use balena convention for npm script names [Josh Bowling]
