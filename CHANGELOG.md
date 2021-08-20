@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.263 - 2021-08-20
+
+* Only disable internal patch bumps [Josh Bowling]
+
 ## 1.1.262 - 2021-08-20
 
 * Update to work with new types [Josh Bowling]

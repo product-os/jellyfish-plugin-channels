@@ -1,4 +1,17 @@
 - commits:
+    - subject: Only disable internal patch bumps
+      hash: 05806c4702def9a1a6a2b5e73a688705b0185de7
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.1.263
+  date: 2021-08-20T01:15:29.730Z
+- commits:
     - subject: Update to work with new types
       hash: e1242de988a2c17482b7c7fd67e9c9cf90c9fb06
       body: ''
