@@ -1,4 +1,26 @@
 - commits:
+    - subject: Update to work with new types
+      hash: e1242de988a2c17482b7c7fd67e9c9cf90c9fb06
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.9.8'
+      hash: 2eebdda396f02eb9283e96bbe79fd40bb60c4983
+      body: |
+        Update @balena/jellyfish-types from 0.8.13 to 0.9.8
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.1.262
+  date: 2021-08-20T01:07:00.089Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.213'
       hash: da04759f580a9bf151a88c4acee558a7b91789ed
       body: ''
