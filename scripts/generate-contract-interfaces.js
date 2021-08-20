@@ -8,7 +8,7 @@ const path = require('path')
 const {
 	scripts
 } = require('@balena/jellyfish-types');
-const coreMixins = require('@balena/jellyfish-core/lib/cards/mixins');
+const coreMixins = require('@balena/jellyfish-core/build/cards/mixins');
 const { ChannelsPlugin } = require('../build')
 
 const context = {

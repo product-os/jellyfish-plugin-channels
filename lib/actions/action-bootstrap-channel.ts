@@ -4,11 +4,15 @@
  * Proprietary and confidential.
  */
 
+import { strict as nativeAssert } from 'assert';
 import merge from 'lodash/merge';
 import slugify from 'slugify';
 import type { ActionFile } from '@balena/jellyfish-plugin-base';
 import { getLogger } from '@balena/jellyfish-logger';
-import type { ContractDefinition } from '@balena/jellyfish-types/build/core';
+import type {
+	ContractDefinition,
+	TypeContract,
+} from '@balena/jellyfish-types/build/core';
 import type { ChannelContract } from '../types';
 
 const logger = getLogger(__filename);
@@ -126,7 +130,10 @@ const handler: ActionFile['handler'] = async (
 	logger.info(request.context, `Bootstrapping channel '${card.slug}'`);
 
 	const viewTypeCard = await context.getCardBySlug(session, 'view@latest');
+	nativeAssert(!!viewTypeCard, 'View type card not found');
+
 	const linkTypeCard = await context.getCardBySlug(session, 'link@latest');
+	nativeAssert(!!linkTypeCard, 'Link type card not found');
 
 	// Create views based on the channel's base filter
 	const views = [
@@ -140,7 +147,7 @@ const handler: ActionFile['handler'] = async (
 			// Save the view card
 			let viewCard = await context.replaceCard(
 				session,
-				viewTypeCard,
+				viewTypeCard as TypeContract,
 				{
 					timestamp: request.timestamp,
 					actor: request.actor,
@@ -158,11 +165,12 @@ const handler: ActionFile['handler'] = async (
 					`${viewCardBase.slug}@${viewCardBase.version}`,
 				);
 			}
+			nativeAssert(!!viewCard, 'View card is null');
 
 			// And create a link card between the view and the channel
 			return context.replaceCard(
 				session,
-				linkTypeCard,
+				linkTypeCard as TypeContract,
 				{
 					timestamp: request.timestamp,
 					actor: request.actor,
