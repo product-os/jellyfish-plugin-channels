@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.264 - 2021-08-20
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 1.1.263 - 2021-08-20
 
 * Only disable internal patch bumps [Josh Bowling]
