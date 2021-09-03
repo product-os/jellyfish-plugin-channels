@@ -1,7 +1,7 @@
 {
   "name": "@balena/jellyfish-plugin-channels",
   "description": "Channels Jellyfish Plugin",
-  "version": "1.1.282",
+  "version": "1.1.283",
   "repository": {
     "type": "git",
     "url": "https://github.com/product-os/jellyfish-plugin-channels.git"
@@ -78,6 +78,6 @@
     "pre-commit": "npx lint-staged"
   },
   "versionist": {
-    "publishedAt": "2021-09-02T15:55:29.887Z"
+    "publishedAt": "2021-09-03T14:43:40.212Z"
   }
 }
