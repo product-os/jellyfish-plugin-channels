@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.285 - 2021-09-04
+
+* patch: Update dependency typedoc to ^0.21.9 [Renovate Bot]
+
 ## 1.1.284 - 2021-09-04
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.235 [Renovate Bot]
