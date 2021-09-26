@@ -4,6 +4,11 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.303 - 2021-09-26
+
+* Add typedoc to depcheck ignore list [Josh Bowling]
+* patch: Update external-non-major [Renovate Bot]
+
 ## 1.1.302 - 2021-09-25
 
 * patch: Update dependency @balena/jellyfish-logger to ^3.0.74 [Renovate Bot]
