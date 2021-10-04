@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.304 - 2021-10-04
+
+* 🔄 Synced file(s) with product-os/jellyfish-config [joshbwlng]
+
 ## 1.1.303 - 2021-09-26
 
 * Add typedoc to depcheck ignore list [Josh Bowling]
