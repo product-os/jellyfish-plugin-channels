@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-core to ^6.2.12'
+      hash: beb3261f77f5279a38b590801fe7a6cfaa48b4d7
+      body: |
+        Update @balena/jellyfish-core from 6.1.1 to 6.2.12
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.1.305
+  date: 2021-10-18T20:33:13.659Z
+- commits:
     - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
       hash: bd8d4009424ac618721b226ca6606f340d7a3417
       body: ''
