@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.308 - 2021-10-19
+
+* patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.246 [Renovate Bot]
+
 ## 1.1.307 - 2021-10-19
 
 * Bump jellyfish-logger to v3.0.86 [Josh Bowling]
