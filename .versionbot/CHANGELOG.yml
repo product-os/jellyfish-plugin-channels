@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: c280df67ca09bb7c114eefb33d784145ed311f85
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.1.338
+  date: 2021-11-10T00:26:53.398Z
+- commits:
     - subject: 'patch: Update dependency slugify to ^1.6.2'
       hash: db6d4ef7e895047a29453721283fec6547573c85
       body: ''
