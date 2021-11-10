@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency slugify to ^1.6.2'
+      hash: db6d4ef7e895047a29453721283fec6547573c85
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.1.337
+  date: 2021-11-10T00:17:14.232Z
+- commits:
     - subject: 'patch: Update dependency typedoc to ^0.22.8'
       hash: 6c93a63e193b333b766be937f0107d85bbabdca2
       body: ''

@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.337 - 2021-11-10
+
+* patch: Update dependency slugify to ^1.6.2 [Renovate Bot]
+
 ## 1.1.336 - 2021-11-07
 
 * patch: Update dependency typedoc to ^0.22.8 [Renovate Bot]
