@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.347 - 2021-11-15
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 1.1.346 - 2021-11-14
 
 * patch: Update dependency typedoc to ^0.22.9 [Renovate Bot]
