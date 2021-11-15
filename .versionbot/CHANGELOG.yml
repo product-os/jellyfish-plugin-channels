@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: c08805f136bbc942e595e32af7247c590f470acc
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.1.350
+  date: 2021-11-15T06:25:55.449Z
+- commits:
     - subject: Remove unneeded shellcheck
       hash: 65adb4b878baf5a959a36288ba26888043546de3
       body: ''

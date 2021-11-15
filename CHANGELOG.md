@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.350 - 2021-11-15
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 1.1.349 - 2021-11-15
 
 * Remove unneeded shellcheck [Josh Bowling]
