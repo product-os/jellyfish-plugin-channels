@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.358 - 2021-11-16
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 1.1.357 - 2021-11-16
 
 * Set license [Josh Bowling]
