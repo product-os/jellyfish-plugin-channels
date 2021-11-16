@@ -44,7 +44,7 @@
     "types": "node ./scripts/generate-contract-interfaces && npm run lint:fix"
   },
   "author": "Balena.io. <hello@balena.io>",
-  "license": "UNLICENSED",
+  "license": "AGPL-3.0",
   "dependencies": {
     "@balena/jellyfish-logger": "^3.0.121",
     "@balena/jellyfish-plugin-base": "^2.1.282",
