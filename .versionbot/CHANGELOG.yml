@@ -1,4 +1,17 @@
 - commits:
+    - subject: Set license
+      hash: 08f4e6534b9e86d22f46118f5bae5e602ca3307a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.1.357
+  date: 2021-11-16T03:03:46.491Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.121'
       hash: 2ff0575415dc8d31e06e6eebb038af5523fb6ae5
       body: ''
