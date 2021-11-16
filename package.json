@@ -47,12 +47,12 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@balena/jellyfish-logger": "^3.0.120",
-    "@balena/jellyfish-plugin-base": "^2.1.279",
+    "@balena/jellyfish-plugin-base": "^2.1.282",
     "lodash": "^4.17.21",
     "slugify": "^1.6.2"
   },
   "devDependencies": {
-    "@balena/jellycheck": "^0.1.7",
+    "@balena/jellycheck": "^0.1.8",
     "@balena/jellyfish-config": "^1.5.4",
     "@balena/jellyfish-core": "^8.0.0",
     "@balena/jellyfish-types": "^1.2.0",
