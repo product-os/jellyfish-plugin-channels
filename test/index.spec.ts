@@ -1,9 +1,3 @@
-/*
- * Copyright (C) Balena.io - All Rights Reserved
- * Unauthorized copying of this file, via any medium is strictly prohibited.
- * Proprietary and confidential.
- */
-
 import isEmpty from 'lodash/isEmpty';
 import { cardMixins as coreMixins } from '@balena/jellyfish-core';
 import { ChannelsPlugin } from '../lib/index';
