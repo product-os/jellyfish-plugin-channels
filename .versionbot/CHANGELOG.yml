@@ -1,4 +1,23 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.290'
+      hash: 096d5a9b0b84e5d70e8dd28f1fb5d8eb7398bc93
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: 'patch: Update internal-patch'
+      hash: 4de574d351059f1c144cf11cb37a72bdd84a5750
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.1.364
+  date: 2021-11-22T13:44:20.912Z
+- commits:
     - subject: Remove license headers
       hash: 9b2c2504947e59ba4c42264a405d8df94b9b00ce
       body: ''
