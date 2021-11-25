@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.376 - 2021-11-25
+
+* Remove jellycheck [Josh Bowling]
+
 ## 1.1.375 - 2021-11-24
 
 * patch: Update internal-patch [Renovate Bot]

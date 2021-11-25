@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove jellycheck
+      hash: 6ff0c0d8ecaae94b18293c714e1501049c247ba6
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.1.376
+  date: 2021-11-25T02:30:14.563Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 75206fd8b011b1e317638b51632f5401093a199e
       body: ''
