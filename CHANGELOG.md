@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.380 - 2021-11-26
+
+* Use product-os/renovate-config [Josh Bowling]
+
 ## 1.1.379 - 2021-11-25
 
 * patch: Update dependency typescript to ^4.5.2 [Renovate Bot]
