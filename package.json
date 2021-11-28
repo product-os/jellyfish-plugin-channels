@@ -50,7 +50,7 @@
     "slugify": "^1.6.3"
   },
   "devDependencies": {
-    "@balena/jellyfish-config": "^1.5.4",
+    "@balena/jellyfish-config": "^2.0.1",
     "@balena/jellyfish-core": "^8.1.0",
     "@balena/jellyfish-types": "^1.2.0",
     "@balena/lint": "^6.2.0",
