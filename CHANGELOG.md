@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.394 - 2021-12-04
+
+* patch: Update dependency jest to ^27.4.3 [Renovate Bot]
+
 ## 1.1.393 - 2021-12-01
 
 * patch: Update internal-patch [Renovate Bot]
