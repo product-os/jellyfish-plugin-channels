@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 1934bf6ee5534350cc63606def7793dccac15f44
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.1.399
+  date: 2021-12-05T23:39:56.739Z
+- commits:
     - subject: 'patch: Update dependency ts-jest to ^27.1.0'
       hash: 956a3ddbcc99112f44a8b1b2d241f5d0387d5834
       body: ''
