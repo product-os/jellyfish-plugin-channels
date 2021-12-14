@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.406 - 2021-12-14
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 1.1.405 - 2021-12-14
 
 * Drop depcheck, bump typescript [Josh Bowling]
