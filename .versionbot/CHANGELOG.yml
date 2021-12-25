@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-core to v10'
+      hash: 6203cc8b6ad3979e3dff97243739c720cb54dfe9
+      body: |
+        Update @balena/jellyfish-core from 8.2.1 to 10.2.3
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.1.425
+  date: 2021-12-25T03:17:48.323Z
+- commits:
     - subject: 'patch: Update dependency lint-staged to ^12.1.4'
       hash: 2b17ee24b1a40e99809d9db0bb42401f9f8ba858
       body: ''
