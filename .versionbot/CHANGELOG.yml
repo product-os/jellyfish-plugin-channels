@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @types/jest to ^27.4.0'
+      hash: 1312d05222261059e501dccd1875c6c16608e91a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.1.427
+  date: 2022-01-01T03:11:14.162Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: b06eff0058421a7ef5f8025e72028b68527e1b7b
       body: ''
