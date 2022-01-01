@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.426 - 2022-01-01
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 1.1.425 - 2021-12-30
 
 * patch: Update internal-patch [Renovate Bot]
