@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 1.1.435 - 2022-01-04
+
+* Remove dev peer dependencies [Josh Bowling]
+
 ## 1.1.434 - 2022-01-03
 
 * patch: Update internal-patch [Renovate Bot]
