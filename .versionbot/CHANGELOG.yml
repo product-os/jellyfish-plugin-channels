@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 3f023507a4ee34bccb9f574f59c6226f2c3cc931
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.1.436
+  date: 2022-01-08T11:11:11.772Z
+- commits:
     - subject: Remove dev peer dependencies
       hash: a90d6e13454582ef83965239da1985972f5ba016
       body: ''
