@@ -1,12 +1,12 @@
-import { strict as nativeAssert } from 'assert';
-import merge from 'lodash/merge';
-import slugify from 'slugify';
-import type { ActionFile } from '@balena/jellyfish-plugin-base';
 import { getLogger } from '@balena/jellyfish-logger';
 import type {
 	ContractDefinition,
 	TypeContract,
 } from '@balena/jellyfish-types/build/core';
+import type { ActionDefinition } from '@balena/jellyfish-worker';
+import { strict as assert } from 'assert';
+import _ from 'lodash';
+import slugify from 'slugify';
 import type { ChannelContract } from '../types';
 
 const logger = getLogger(__filename);
@@ -37,7 +37,7 @@ const createViewAll = (
 	channelContract: ChannelContract,
 ): Partial<ContractDefinition> => {
 	const channelName = channelContract.name!.toLowerCase();
-	return merge({}, commonView(channelContract), {
+	return _.merge({}, commonView(channelContract), {
 		slug: `view-all-${slugify(channelName)}`,
 		name: `All ${channelName}`,
 		data: {
@@ -50,7 +50,7 @@ const createOwnedByMeView = (
 	channelContract: ChannelContract,
 ): Partial<ContractDefinition> => {
 	const channelName = channelContract.name!.toLowerCase();
-	return merge({}, commonView(channelContract), {
+	return _.merge({}, commonView(channelContract), {
 		slug: `view-${slugify(channelName)}-owned-by-me`,
 		name: `${capitalizeFirst(channelName)} owned by me`,
 		data: {
@@ -86,7 +86,7 @@ const createUnownedView = (
 	channelContract: ChannelContract,
 ): Partial<ContractDefinition> => {
 	const channelName = channelContract.name!.toLowerCase();
-	return merge({}, commonView(channelContract), {
+	return _.merge({}, commonView(channelContract), {
 		slug: `view-unowned-${slugify(channelName)}`,
 		name: `Unowned ${channelName}`,
 		data: {
@@ -115,19 +115,19 @@ const createUnownedView = (
 };
 
 // TS-TODO: ActionFile should be generic so we can specify the contract data type
-const handler: ActionFile['handler'] = async (
+const handler: ActionDefinition['handler'] = async (
 	session,
 	context,
 	card,
 	request,
 ) => {
-	logger.info(request.context, `Bootstrapping channel '${card.slug}'`);
+	logger.info(request.logContext, `Bootstrapping channel '${card.slug}'`);
 
 	const viewTypeCard = await context.getCardBySlug(session, 'view@latest');
-	nativeAssert(!!viewTypeCard, 'View type card not found');
+	assert(!!viewTypeCard, 'View type card not found');
 
 	const linkTypeCard = await context.getCardBySlug(session, 'link@latest');
-	nativeAssert(!!linkTypeCard, 'Link type card not found');
+	assert(!!linkTypeCard, 'Link type card not found');
 
 	// Create views based on the channel's base filter
 	const views = [
@@ -159,7 +159,7 @@ const handler: ActionFile['handler'] = async (
 					`${viewCardBase.slug}@${viewCardBase.version}`,
 				);
 			}
-			nativeAssert(!!viewCard, 'View card is null');
+			assert(!!viewCard, 'View card is null');
 
 			// And create a link card between the view and the channel
 			return context.replaceCard(
@@ -201,10 +201,11 @@ const handler: ActionFile['handler'] = async (
 	};
 };
 
-export const actionBootstrapChannel: ActionFile = {
+export const actionBootstrapChannel: ActionDefinition = {
 	handler,
-	card: {
+	contract: {
 		slug: 'action-bootstrap-channel',
+		version: '1.0.0',
 		type: 'action@1.0.0',
 		name: 'Bootstrap a channel',
 		data: {

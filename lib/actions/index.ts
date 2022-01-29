@@ -1,7 +1,4 @@
-import { ActionFile } from '@balena/jellyfish-plugin-base';
-import { ContractData } from '@balena/jellyfish-types/build/core';
+import type { ActionDefinition } from '@balena/jellyfish-worker';
 import { actionBootstrapChannel } from './action-bootstrap-channel';
 
-export const actions: Array<ActionFile<ContractData>> = [
-	actionBootstrapChannel,
-];
+export const actions: ActionDefinition[] = [actionBootstrapChannel];
