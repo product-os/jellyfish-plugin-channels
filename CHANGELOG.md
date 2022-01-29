@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.0 - 2022-01-29
+
+* Switch to worker [Josh Bowling]
+
 ## 1.1.456 - 2022-01-29
 
 * Update dependencies (internal patch bumps) [Renovate Bot]

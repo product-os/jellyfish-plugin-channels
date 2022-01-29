@@ -1,4 +1,18 @@
 - commits:
+    - subject: Switch to worker
+      hash: fb6e153e659bfd6690cc529bad27af61169c61f8
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.0
+  title: Switch to worker
+  date: 2022-01-29T10:19:55.136Z
+- commits:
     - subject: Update dependencies (internal patch bumps)
       hash: 586761e444efa4aba07db93334ea2cef9dcaf827
       body: ""
