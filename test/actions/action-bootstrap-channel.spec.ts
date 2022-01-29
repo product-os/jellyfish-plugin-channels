@@ -37,7 +37,7 @@ describe('action-bootstrap-channel', () => {
 			timestamp: new Date().toISOString(),
 			actor: 'actor-1',
 			originator: 'originator',
-			context: {
+			logContext: {
 				id: 'action-bootstrap-channel-test',
 			},
 		};

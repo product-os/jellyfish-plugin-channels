@@ -1,23 +1,16 @@
-import isEmpty from 'lodash/isEmpty';
-import { cardMixins as coreMixins } from '@balena/jellyfish-core';
-import { ChannelsPlugin } from '../lib/index';
+import { PluginManager } from '@balena/jellyfish-worker';
+import _ from 'lodash';
+import { channelsPlugin } from '../lib/index';
 
-const context = {
-	id: 'jellyfish-plugin-channels-test',
-};
-
-const plugin = new ChannelsPlugin();
+const pluginManager = new PluginManager([channelsPlugin()]);
 
 test('Plugin returns collection of cards', () => {
-	const cards = plugin.getCards(context, coreMixins);
-
-	expect(isEmpty(cards)).toBeFalsy();
+	const cards = pluginManager.getCards();
+	expect(_.isEmpty(cards)).toBeFalsy();
 });
 
 test('Expected cards are loaded', () => {
-	const cards = plugin.getCards(context, coreMixins);
-
-	// Sanity check
+	const cards = pluginManager.getCards();
 	expect(cards.channel.name).toBe('Channel');
 	expect(cards['action-bootstrap-channel'].slug).toBe(
 		'action-bootstrap-channel',
@@ -25,8 +18,6 @@ test('Expected cards are loaded', () => {
 });
 
 test('Expected actions are loaded', () => {
-	const actions = plugin.getActions(context);
-
-	// Sanity check
+	const actions = pluginManager.getActions();
 	expect(typeof actions['action-bootstrap-channel'].handler).toBe('function');
 });
