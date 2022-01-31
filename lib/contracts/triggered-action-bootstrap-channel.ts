@@ -1,5 +1,5 @@
-import { ContractDefinition } from '@balena/jellyfish-types/build/core';
-import { TriggeredActionData } from '@balena/jellyfish-types/build/worker';
+import type { ContractDefinition } from '@balena/jellyfish-types/build/core';
+import type { TriggeredActionData } from '@balena/jellyfish-worker';
 
 export const triggeredActionBootstrapChannel: ContractDefinition<TriggeredActionData> =
 	{

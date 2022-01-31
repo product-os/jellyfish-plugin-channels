@@ -1,9 +1,9 @@
-import sinon from 'sinon';
-import { v4 as uuid } from 'uuid';
-import {
+import type {
 	ContractDefinition,
 	ContractSummary,
 } from '@balena/jellyfish-types/build/core';
+import sinon from 'sinon';
+import { v4 as uuid } from 'uuid';
 import { testChannel, viewCardType, linkCardType } from '../fixtures';
 import { actionBootstrapChannel } from '../../lib/actions/action-bootstrap-channel';
 
