@@ -1,4 +1,24 @@
 - commits:
+    - subject: Update internal-patch
+      hash: 662a21730f018d37138e6b7fcdf2f7b50ace49f2
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Update @balena/jellyfish-worker from 18.1.0 to 18.2.0
+      hash: b34e72d82b61a4f4d940dc2be65545ee9f918e70
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.5
+  title: Update internal-patch
+  date: 2022-02-02T08:01:03.269Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 18.0.3 to 18.1.0
       hash: 6e413920522e51e1f9ae6295aaa232d6adb3de01
       body: ""
