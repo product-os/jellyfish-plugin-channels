@@ -6,7 +6,10 @@
 
 // tslint:disable: array-type
 
-import { core } from '@balena/jellyfish-types';
+import type {
+	Contract,
+	ContractDefinition,
+} from '@balena/jellyfish-types/build/core';
 
 export interface ChannelData {
 	/**
@@ -19,6 +22,6 @@ export interface ChannelData {
 }
 
 export interface ChannelContractDefinition
-	extends core.ContractDefinition<ChannelData> {}
+	extends ContractDefinition<ChannelData> {}
 
-export interface ChannelContract extends core.Contract<ChannelData> {}
+export interface ChannelContract extends Contract<ChannelData> {}
