@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.6 - 2022-02-02
+
+* Update @balena/jellyfish-worker from 18.2.1 to 18.3.0 [Renovate Bot]
+
 ## 2.0.5 - 2022-02-02
 
 * Update internal-patch [Renovate Bot]
