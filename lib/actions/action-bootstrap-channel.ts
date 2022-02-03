@@ -1,10 +1,10 @@
+import { strict as assert } from 'assert';
 import { getLogger } from '@balena/jellyfish-logger';
 import type {
 	ContractDefinition,
 	TypeContract,
 } from '@balena/jellyfish-types/build/core';
 import type { ActionDefinition } from '@balena/jellyfish-worker';
-import { strict as assert } from 'assert';
 import _ from 'lodash';
 import slugify from 'slugify';
 import type { ChannelContract } from '../types';
