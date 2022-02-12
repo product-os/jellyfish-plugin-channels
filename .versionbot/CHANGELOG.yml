@@ -1,4 +1,32 @@
 - commits:
+    - subject: Update external-non-major
+      hash: 358676798a5e7121c6d2bab8bc86d24845d7fc86
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Update @balena/jellyfish-core from 14.2.0 to 14.3.0
+      hash: 61d32f3558ba25e3eb7f44ad038d77e6ed35615e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Update @balena/jellyfish-worker from 18.5.4 to 18.6.0
+      hash: d3c916363c10851ab2881dae7721f55fa71986a0
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.15
+  title: "'Update external-non-major'"
+  date: 2022-02-12T01:14:33.998Z
+- commits:
     - subject: Update internal-patch
       hash: 0e8e6628c163c959e5d2a0cb3067487727cc1ae9
       body: ""
