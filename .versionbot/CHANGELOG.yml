@@ -1,4 +1,26 @@
 - commits:
+    - subject: Transform serialize-error
+      hash: 7f69f6f91a6c5a04dcb9740f19581642ac5fac29
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Update internal-patch
+      hash: 8054e55d4afd97b7aa43739db9c5d788f7a07f50
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.24
+  title: "'Update internal-patch'"
+  date: 2022-02-24T03:38:44.466Z
+- commits:
     - subject: Update @balena/jellyfish-core from 14.4.0 to 15.0.0
       hash: 7e7f5b8c52ba03d9716d2f56f903137de377876b
       body: ""

@@ -4,6 +4,11 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.24 - 2022-02-24
+
+* Transform serialize-error [Josh Bowling]
+* Update internal-patch [Renovate Bot]
+
 ## 2.0.23 - 2022-02-23
 
 * Update @balena/jellyfish-core from 14.4.0 to 15.0.0 [Renovate Bot]
