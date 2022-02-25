@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.25 - 2022-02-25
+
+* Update internal-patch [Renovate Bot]
+
 ## 2.0.24 - 2022-02-24
 
 * Transform serialize-error [Josh Bowling]
