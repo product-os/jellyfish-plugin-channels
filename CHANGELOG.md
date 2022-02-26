@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.27 - 2022-02-26
+
+* Update internal-patch [Renovate Bot]
+
 ## 2.0.26 - 2022-02-25
 
 * Use latest version of jellyfish-logger [Lucian Buzzo]
