@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.35 - 2022-03-01
+
+* Update internal-patch [Renovate Bot]
+
 ## 2.0.34 - 2022-03-01
 
 * Renovate: Stop ignoring internal patches [Josh Bowling]
