@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.34 - 2022-03-01
+
+* Renovate: Stop ignoring internal patches [Josh Bowling]
+
 ## 2.0.33 - 2022-03-01
 
 * Remove jest-esm-transformer [Josh Bowling]
