@@ -1,4 +1,18 @@
 - commits:
+    - subject: Remove jest-esm-transformer
+      hash: c8af26d744c8fcaeb52ef6b92791e07818a2214d
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.33
+  title: "'Remove jest-esm-transformer'"
+  date: 2022-03-01T08:43:29.527Z
+- commits:
     - subject: Remove serialize-error transform
       hash: 9068ca5812bc6f7a2f69c7806a36cef3c0f9a42a
       body: ""

@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.33 - 2022-03-01
+
+* Remove jest-esm-transformer [Josh Bowling]
+
 ## 2.0.32 - 2022-03-01
 
 * Remove serialize-error transform [Josh Bowling]
