@@ -7,14 +7,13 @@ Provides a set of cards and actions for adding 'channels' functionality to Jelly
 Below is an example how to use this library:
 
 ```js
-const coreMixins = require('@balena/jellyfish-core/lib/cards/mixins')
-const ChannelsPlugin = require('@balena/jellyfish-plugin-channels')
+import { channelsPlugin } from '@balena/jellyfish-plugin-channels';
+import { PluginManager } from '@balena/jellyfish-worker';
 
-const plugin = new ChannelsPlugin()
-
-// Load cards from this plugin, can use custom mixins
-const cards = plugin.getCards(context, coreMixins)
-console.dir(cards)
+// Load cards from this plugin
+const pluginManager = new PluginManager([channelsPlugin()]);
+const cards = pluginManager.getCards();
+console.dir(cards);
 ```
 
 # Documentation
