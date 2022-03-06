@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.41 - 2022-03-06
+
+* Update lint-staged from 12.3.4 to 12.3.5 [Josh Bowling]
+
 ## 2.0.40 - 2022-03-05
 
 * Update internal-patch [Renovate Bot]
