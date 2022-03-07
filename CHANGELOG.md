@@ -4,6 +4,11 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.44 - 2022-03-07
+
+* Update internal-patch [Renovate Bot]
+* Update typedoc from 0.22.12 to 0.22.13 [Renovate Bot]
+
 ## 2.0.43 - 2022-03-06
 
 * Update internal-patch [Renovate Bot]
