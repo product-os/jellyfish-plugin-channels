@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.54 - 2022-03-16
+
+* Use autumndb instead of jellyfish-core [Lucian Buzzo]
+
 ## 2.0.53 - 2022-03-15
 
 * Update @balena/jellyfish-worker from 19.0.23 to 20.0.0 [Josh Bowling]
