@@ -44,8 +44,8 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "AGPL-3.0",
   "dependencies": {
-    "@balena/jellyfish-logger": "^5.0.8",
-    "@balena/jellyfish-worker": "^20.2.4",
+    "@balena/jellyfish-logger": "^5.0.10",
+    "@balena/jellyfish-worker": "^20.2.6",
     "lodash": "^4.17.21",
     "slugify": "^1.6.5"
   },
