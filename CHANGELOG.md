@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.61 - 2022-03-22
+
+* Update upstreams in repo.yml [Josh Bowling]
+
 ## 2.0.60 - 2022-03-22
 
 * Update internal-patch [Renovate Bot]
