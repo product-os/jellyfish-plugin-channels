@@ -4,6 +4,11 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.64 - 2022-03-23
+
+* Update internal-patch [Renovate Bot]
+* Update autumndb from 19.0.3 to 19.1.0 [Renovate Bot]
+
 ## 2.0.63 - 2022-03-22
 
 * Update internal-patch [Renovate Bot]
