@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.67 - 2022-03-25
+
+* Update @balena/jellyfish-worker from 20.2.10 to 21.0.0 [Josh Bowling]
+
 ## 2.0.66 - 2022-03-25
 
 * Update typescript from 4.6.2 to 4.6.3 [Renovate Bot]
