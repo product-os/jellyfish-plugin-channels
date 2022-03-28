@@ -1,10 +1,10 @@
-import { strict as assert } from 'assert';
 import { getLogger } from '@balena/jellyfish-logger';
 import type {
 	ContractDefinition,
 	TypeContract,
 } from '@balena/jellyfish-types/build/core';
 import type { ActionDefinition } from '@balena/jellyfish-worker';
+import { strict as assert } from 'assert';
 import _ from 'lodash';
 import slugify from 'slugify';
 import type { ChannelContract } from '../types';
@@ -57,7 +57,7 @@ const createOwnedByMeView = (
 			allOf: [
 				channelContract.data.filter,
 				{
-					name: 'Cards owned by me',
+					name: 'Contracts owned by me',
 					schema: {
 						type: 'object',
 						$$links: {
@@ -93,7 +93,7 @@ const createUnownedView = (
 			allOf: [
 				channelContract.data.filter,
 				{
-					name: 'Unowned cards',
+					name: 'Unowned contracts',
 					schema: {
 						type: 'object',
 						not: {
@@ -118,53 +118,53 @@ const createUnownedView = (
 const handler: ActionDefinition['handler'] = async (
 	session,
 	context,
-	card,
+	contract,
 	request,
 ) => {
-	logger.info(request.logContext, `Bootstrapping channel '${card.slug}'`);
+	logger.info(request.logContext, `Bootstrapping channel '${contract.slug}'`);
 
-	const viewTypeCard = await context.getCardBySlug(session, 'view@latest');
-	assert(!!viewTypeCard, 'View type card not found');
+	const viewTypeContract = await context.getCardBySlug(session, 'view@latest');
+	assert(!!viewTypeContract, 'View type contract not found');
 
-	const linkTypeCard = await context.getCardBySlug(session, 'link@latest');
-	assert(!!linkTypeCard, 'Link type card not found');
+	const linkTypeContract = await context.getCardBySlug(session, 'link@latest');
+	assert(!!linkTypeContract, 'Link type contract not found');
 
 	// Create views based on the channel's base filter
 	const views = [
-		createViewAll(card as ChannelContract),
-		createOwnedByMeView(card as ChannelContract),
-		createUnownedView(card as ChannelContract),
+		createViewAll(contract as ChannelContract),
+		createOwnedByMeView(contract as ChannelContract),
+		createUnownedView(contract as ChannelContract),
 	];
 
 	await Promise.all(
-		views.map(async (viewCardBase: any) => {
-			// Save the view card
-			let viewCard = await context.replaceCard(
+		views.map(async (viewContractBase: any) => {
+			// Save the view contract
+			let viewContract = await context.replaceCard(
 				session,
-				viewTypeCard as TypeContract,
+				viewTypeContract as TypeContract,
 				{
 					timestamp: request.timestamp,
 					actor: request.actor,
 					originator: request.originator,
 					attachEvents: true,
 				},
-				viewCardBase,
+				viewContractBase,
 			);
 
-			// If the view card already exists and no changes were made, replaceCard returns null,
-			// so we just fetch the card by slug.
-			if (viewCard === null) {
-				viewCard = await context.getCardBySlug(
+			// If the view contract already exists and no changes were made, replaceCard returns null,
+			// so we just fetch the contract by slug.
+			if (viewContract === null) {
+				viewContract = await context.getCardBySlug(
 					session,
-					`${viewCardBase.slug}@${viewCardBase.version}`,
+					`${viewContractBase.slug}@${viewContractBase.version}`,
 				);
 			}
-			assert(!!viewCard, 'View card is null');
+			assert(!!viewContract, 'View contract is null');
 
-			// And create a link card between the view and the channel
+			// And create a link contract between the view and the channel
 			return context.replaceCard(
 				session,
-				linkTypeCard as TypeContract,
+				linkTypeContract as TypeContract,
 				{
 					timestamp: request.timestamp,
 					actor: request.actor,
@@ -172,18 +172,18 @@ const handler: ActionDefinition['handler'] = async (
 					attachEvents: false,
 				},
 				{
-					slug: `link-${viewCard.id}-is-attached-to-${card.id}`,
+					slug: `link-${viewContract.id}-is-attached-to-${contract.id}`,
 					type: 'link@1.0.0',
 					name: 'is attached to',
 					data: {
 						inverseName: 'has attached element',
 						from: {
-							id: viewCard.id,
-							type: viewCard.type,
+							id: viewContract.id,
+							type: viewContract.type,
 						},
 						to: {
-							id: card.id,
-							type: card.type,
+							id: contract.id,
+							type: contract.type,
 						},
 					},
 				},
@@ -191,7 +191,7 @@ const handler: ActionDefinition['handler'] = async (
 		}),
 	);
 
-	const result = card;
+	const result = contract;
 
 	return {
 		id: result.id,

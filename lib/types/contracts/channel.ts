@@ -13,7 +13,7 @@ import type {
 
 export interface ChannelData {
 	/**
-	 * Cards matching this filter will be handled by the channel
+	 * Contracts matching this filter will be handled by the channel
 	 */
 	filter: {
 		[k: string]: unknown;

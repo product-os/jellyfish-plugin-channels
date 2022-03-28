@@ -1,19 +1,19 @@
 import { v4 as uuid } from 'uuid';
 
-export const viewCardType = {
+export const viewContractType = {
 	slug: 'view',
 	type: 'type@1.0.0',
 };
 
-export const linkCardType = {
+export const linkContractType = {
 	slug: 'link',
 	type: 'type@1.0.0',
 };
 
 export const testChannel = {
 	id: `channel-${uuid()}`,
-	slug: 'channel-test-cards',
-	name: 'Test Cards',
+	slug: 'channel-test-contracts',
+	name: 'Test Contracts',
 	type: 'channel@1.0.0',
 	version: '1.0.0',
 	tags: [],
@@ -23,7 +23,7 @@ export const testChannel = {
 	active: true,
 	data: {
 		filter: {
-			name: 'Test cards',
+			name: 'Test contracts',
 			schema: {
 				type: 'object',
 				properties: {

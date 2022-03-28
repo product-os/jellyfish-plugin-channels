@@ -3,9 +3,9 @@ import type {
 	ContractSummary,
 } from '@balena/jellyfish-types/build/core';
 import sinon from 'sinon';
-import { v4 as uuid } from 'uuid';
-import { testChannel, viewCardType, linkCardType } from '../fixtures';
+import { v4 as uuidv4 } from 'uuid';
 import { actionBootstrapChannel } from '../../lib/actions/action-bootstrap-channel';
+import { linkContractType, testChannel, viewContractType } from '../fixtures';
 
 const sandbox = sinon.createSandbox();
 
@@ -20,18 +20,18 @@ describe('action-bootstrap-channel', () => {
 			getCardBySlug: sandbox.stub(),
 			replaceCard: (
 				_session: any,
-				_typeCard: any,
+				_typeContract: any,
 				_options: any,
-				card: ContractDefinition,
+				contract: ContractDefinition,
 			) => {
 				return {
-					id: `${card.type.split('@')[0]}-${uuid()}`,
-					...card,
+					id: `${contract.type.split('@')[0]}-${uuidv4()}`,
+					...contract,
 				};
 			},
 		}),
-			context.getCardBySlug.onCall(0).resolves(viewCardType);
-		context.getCardBySlug.onCall(1).resolves(linkCardType);
+			context.getCardBySlug.onCall(0).resolves(viewContractType);
+		context.getCardBySlug.onCall(1).resolves(linkContractType);
 
 		request = {
 			timestamp: new Date().toISOString(),
@@ -69,9 +69,9 @@ describe('action-bootstrap-channel', () => {
 			linkViewUnowned,
 		] = replaceCardSpy.getCalls().map((call) => call.returnValue);
 
-		expect(viewAll.slug).toBe('view-all-test-cards');
-		expect(viewOwnedByMe.slug).toBe('view-test-cards-owned-by-me');
-		expect(viewUnowned.slug).toBe('view-unowned-test-cards');
+		expect(viewAll.slug).toBe('view-all-test-contracts');
+		expect(viewOwnedByMe.slug).toBe('view-test-contracts-owned-by-me');
+		expect(viewUnowned.slug).toBe('view-unowned-test-contracts');
 		expect(linkViewAll.slug).toBe(
 			`link-${viewAll.id}-is-attached-to-${testChannel.id}`,
 		);
