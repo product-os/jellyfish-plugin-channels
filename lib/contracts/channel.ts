@@ -18,7 +18,7 @@ export const channel: ContractDefinition<TypeData> = {
 					properties: {
 						filter: {
 							description:
-								'Cards matching this filter will be handled by the channel',
+								'Contracts matching this filter will be handled by the channel',
 							type: 'object',
 						},
 					},

@@ -4,15 +4,15 @@ import { channelsPlugin } from '../lib/index';
 
 const pluginManager = new PluginManager([channelsPlugin()]);
 
-test('Plugin returns collection of cards', () => {
-	const cards = pluginManager.getCards();
-	expect(_.isEmpty(cards)).toBeFalsy();
+test('Plugin returns collection of contracts', () => {
+	const contracts = pluginManager.getCards();
+	expect(_.isEmpty(contracts)).toBeFalsy();
 });
 
-test('Expected cards are loaded', () => {
-	const cards = pluginManager.getCards();
-	expect(cards.channel.name).toBe('Channel');
-	expect(cards['action-bootstrap-channel'].slug).toBe(
+test('Expected contracts are loaded', () => {
+	const contracts = pluginManager.getCards();
+	expect(contracts.channel.name).toBe('Channel');
+	expect(contracts['action-bootstrap-channel'].slug).toBe(
 		'action-bootstrap-channel',
 	);
 });
