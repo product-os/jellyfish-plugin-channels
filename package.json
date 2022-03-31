@@ -35,11 +35,13 @@
     "build": "npm run clean && tsc -p tsconfig.build.json",
     "lint": "balena-lint lib test && deplint",
     "lint:fix": "balena-lint --fix lib test",
-    "test:unit": "jest",
+    "test:unit": "jest test/unit",
     "test": "npm run lint && npm run test:unit",
+    "test:integration": "jest --bail --runInBand test/integration",
+    "test:compose": "docker build -t balena/jellyfish-sut:latest . && docker-compose -f docker-compose.test.yml -f docker-compose.yml up --exit-code-from=sut",
     "doc": "typedoc lib/ && touch docs/.nojekyll",
     "prepack": "npm run build",
-    "types": "node ./scripts/generate-contract-interfaces && npm run lint:fix"
+    "compose": "docker-compose up"
   },
   "author": "Balena.io. <hello@balena.io>",
   "license": "AGPL-3.0",
@@ -51,6 +53,8 @@
   },
   "devDependencies": {
     "@balena/jellyfish-config": "^2.0.6",
+    "@balena/jellyfish-plugin-default": "^24.0.87",
+    "@balena/jellyfish-plugin-product-os": "^5.0.6",
     "@balena/jellyfish-types": "^2.0.5",
     "@balena/lint": "^6.2.0",
     "@types/jest": "^27.5.1",

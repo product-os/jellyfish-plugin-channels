@@ -114,7 +114,6 @@ const createUnownedView = (
 	});
 };
 
-// TS-TODO: ActionFile should be generic so we can specify the contract data type
 const handler: ActionDefinition['handler'] = async (
 	session,
 	context,
@@ -126,8 +125,66 @@ const handler: ActionDefinition['handler'] = async (
 	const viewTypeContract = await context.getCardBySlug(session, 'view@latest');
 	assert(!!viewTypeContract, 'View type contract not found');
 
+	const triggeredActionTypeContract = await context.getCardBySlug(
+		session,
+		'triggered-action@latest',
+	);
+	assert(
+		!!triggeredActionTypeContract,
+		'Triggered action type contract not found',
+	);
+
 	const linkTypeContract = await context.getCardBySlug(session, 'link@latest');
 	assert(!!linkTypeContract, 'Link type contract not found');
+
+	// Create triggered action based on the channel's base filter
+	const triggeredActionContract = await context.replaceCard(
+		session,
+		triggeredActionTypeContract as TypeContract,
+		{
+			timestamp: request.timestamp,
+			actor: request.actor,
+			originator: request.originator,
+			attachEvents: true,
+		},
+		{
+			slug: `triggered-action-matchmake-task-${contract.slug}`,
+			type: `${triggeredActionTypeContract.slug}@${triggeredActionTypeContract.version}`,
+			data: {
+				filter: (contract as ChannelContract).data.filter.schema,
+				action: 'action-matchmake-task@1.0.0',
+				target: '${source.slug}@1.0.0',
+				arguments: {},
+			},
+		},
+	);
+	assert(triggeredActionContract);
+	await context.replaceCard(
+		session,
+		linkTypeContract as TypeContract,
+		{
+			timestamp: request.timestamp,
+			actor: request.actor,
+			originator: request.originator,
+			attachEvents: false,
+		},
+		{
+			slug: `link-${triggeredActionContract.id}-is-attached-to-${contract.id}`,
+			type: 'link@1.0.0',
+			name: 'is attached to',
+			data: {
+				inverseName: 'has attached element',
+				from: {
+					id: triggeredActionContract.id,
+					type: triggeredActionContract.type,
+				},
+				to: {
+					id: contract.id,
+					type: contract.type,
+				},
+			},
+		},
+	);
 
 	// Create views based on the channel's base filter
 	const views = [

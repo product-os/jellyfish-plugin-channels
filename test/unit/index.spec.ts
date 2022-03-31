@@ -1,6 +1,6 @@
 import { PluginManager } from '@balena/jellyfish-worker';
 import _ from 'lodash';
-import { channelsPlugin } from '../lib/index';
+import { channelsPlugin } from '../../lib/index';
 
 const pluginManager = new PluginManager([channelsPlugin()]);
 
