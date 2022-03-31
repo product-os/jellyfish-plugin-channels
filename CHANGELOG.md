@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.75 - 2022-03-30
+
+* Update @balena/jellyfish-worker from 21.0.7 to 21.1.0 [Renovate Bot]
+
 ## 2.0.74 - 2022-03-28
 
 * Rename card to contract [Josh Bowling]
