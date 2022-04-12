@@ -1,4 +1,24 @@
 - commits:
+    - subject: Update internal-patch
+      hash: 7918ca983aedc87de0c5e8206246c1b0cff7aeaa
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Update typedoc from 0.22.14 to 0.22.15
+      hash: 0c33efccfafcda1387f8c9310260635627ae43da
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.85
+  title: "'Update internal-patch'"
+  date: 2022-04-12T02:30:42.551Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 21.1.13 to 21.2.0
       hash: 64d9a78f305eec7333671fa8c58f83a1974d965c
       body: ""

@@ -4,6 +4,11 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.85 - 2022-04-12
+
+* Update internal-patch [Renovate Bot]
+* Update typedoc from 0.22.14 to 0.22.15 [Renovate Bot]
+
 ## 2.0.84 - 2022-04-10
 
 * Update @balena/jellyfish-worker from 21.1.13 to 21.2.0 [Josh Bowling]
