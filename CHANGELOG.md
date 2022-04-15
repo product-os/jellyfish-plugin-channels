@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.88 - 2022-04-15
+
+* 🔄 Synced file(s) with product-os/jellyfish-config [joshbwlng]
+
 ## 2.0.87 - 2022-04-12
 
 * Update internal-patch [Renovate Bot]
