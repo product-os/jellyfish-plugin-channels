@@ -4,6 +4,11 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.100 - 2022-04-30
+
+* Update internal-patch [Renovate Bot]
+* Update typescript from 4.6.3 to 4.6.4 [Renovate Bot]
+
 ## 2.0.99 - 2022-04-28
 
 * Update internal-patch [Renovate Bot]
