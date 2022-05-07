@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.107 - 2022-05-07
+
+* Update internal-patch [Renovate Bot]
+
 ## 2.0.106 - 2022-05-04
 
 * Update internal-patch [Renovate Bot]
