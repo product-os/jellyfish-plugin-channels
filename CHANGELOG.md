@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.116 - 2022-05-11
+
+* Add relationship definitions [Ramiro González Maciel]
+
 ## 2.0.115 - 2022-05-11
 
 * Bump internal [Josh Bowling]

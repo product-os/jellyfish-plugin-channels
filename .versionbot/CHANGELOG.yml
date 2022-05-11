@@ -1,4 +1,20 @@
 - commits:
+    - subject: Add relationship definitions
+      hash: d09ffaad2508c25a0049f5d6a568437d26ba3366
+      body: |
+        Add relationships defined between contract types in the module,
+        or between contract types in the module and its dependencies
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Ramiro Gonzalez <ramiro.gonzalez@balena.io>
+        signed-off-by: Ramiro Gonzalez <ramiro.gonzalez@balena.io>
+      author: Ramiro González Maciel
+      nested: []
+  version: 2.0.116
+  title: "'Add relationship definitions'"
+  date: 2022-05-11T08:01:41.466Z
+- commits:
     - subject: Bump internal
       hash: bb74783d26bf0f3ef7a70be116eacae71fcd2af8
       body: ""
