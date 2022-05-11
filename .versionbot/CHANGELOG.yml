@@ -1,4 +1,18 @@
 - commits:
+    - subject: Bump internal
+      hash: bb74783d26bf0f3ef7a70be116eacae71fcd2af8
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.115
+  title: "'Bump internal'"
+  date: 2022-05-11T07:29:50.580Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 23.0.17 to 24.1.0
       hash: d48740e57e941d91fc698f427bc5c96502578a27
       body: ""
