@@ -4,6 +4,11 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 3.0.0 - 2022-05-13
+
+* Update to worker v26 [karaxuna]
+* Update autumndb from 19.3.1 to 20.0.0 [Renovate Bot]
+
 ## 2.0.116 - 2022-05-11
 
 * Add relationship definitions [Ramiro González Maciel]

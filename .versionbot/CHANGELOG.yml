@@ -1,4 +1,24 @@
 - commits:
+    - subject: Update to worker v26
+      hash: 42650d012084899ff5b8231309ffa75b2a931cfe
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+      author: karaxuna
+      nested: []
+    - subject: Update autumndb from 19.3.1 to 20.0.0
+      hash: 02b2d2bccc9fd0308a6a9b7435464fecad35e383
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.0
+  title: "'Update to worker v26'"
+  date: 2022-05-13T16:47:28.837Z
+- commits:
     - subject: Add relationship definitions
       hash: d09ffaad2508c25a0049f5d6a568437d26ba3366
       body: |
