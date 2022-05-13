@@ -4,6 +4,11 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 2.0.117 - 2022-05-13
+
+* Update @balena/jellyfish-worker from 24.2.0 to 26.0.0 [Renovate Bot]
+* Update autumndb from 19.3.1 to 20.0.0 [Renovate Bot]
+
 ## 2.0.116 - 2022-05-11
 
 * Add relationship definitions [Ramiro González Maciel]

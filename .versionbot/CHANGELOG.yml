@@ -1,4 +1,24 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 24.2.0 to 26.0.0
+      hash: 418fd79554d65123e75c655ff9ad25bb260d5d5e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Update autumndb from 19.3.1 to 20.0.0
+      hash: 02b2d2bccc9fd0308a6a9b7435464fecad35e383
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.117
+  title: "'Update @balena/jellyfish-worker from 24.2.0 to 26.0.0'"
+  date: 2022-05-13T15:17:20.462Z
+- commits:
     - subject: Add relationship definitions
       hash: d09ffaad2508c25a0049f5d6a568437d26ba3366
       body: |
