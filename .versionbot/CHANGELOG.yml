@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update worker to v27
+      hash: e53406c8bc58e1e5d20327d99ae8574768d683b2
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+      author: karaxuna
+      nested: []
+  version: 4.0.0
+  title: "'Update worker to v27'"
+  date: 2022-05-16T14:53:12.271Z
+- commits:
     - subject: Update internal-patch
       hash: c6d03ea04aea7470f01b30a2bb7ad033afc74c8f
       body: ""

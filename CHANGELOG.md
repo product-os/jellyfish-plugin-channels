@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 4.0.0 - 2022-05-16
+
+* Update worker to v27 [karaxuna]
+
 ## 3.0.4 - 2022-05-14
 
 * Update internal-patch [Renovate Bot]
