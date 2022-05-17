@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add agent-channel-settings contract
+      hash: db50aa386e3ded861a871506a4bb9e04f3f41fa6
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.1.0
+  title: "'Add agent-channel-settings contract'"
+  date: 2022-05-17T05:05:28.636Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 26.0.3 to 27.0.0
       hash: e58233316fe0a7f8ed6daef3d57f6992c80d48b2
       body: ""
