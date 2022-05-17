@@ -1,4 +1,22 @@
 - commits:
+    - subject: Add preferences contract, update bootstrap
+      hash: d552b5e8d75b4f5552c0c548ab229f216689ac9d
+      body: |
+        Add new contract to allow users to define
+        personal preferences for a particular channel.
+        Also generate a triggered action for channels
+        on bootstrap. Part of the support v2 work.
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.1.0
+  title: "'Add channel-settings contract'"
+  date: 2022-05-17T04:24:26.504Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 26.0.3 to 27.0.0
       hash: e58233316fe0a7f8ed6daef3d57f6992c80d48b2
       body: ""
