@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 3.1.1 - 2022-05-17
+
+* Update internal-patch [Renovate Bot]
+
 ## 3.1.0 - 2022-05-17
 
 * Add agent-channel-settings contract [Josh Bowling]
