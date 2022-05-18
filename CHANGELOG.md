@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 3.1.2 - 2022-05-18
+
+* Test autumndb relationship validation [Josh Bowling]
+
 ## 3.1.1 - 2022-05-17
 
 * Update internal-patch [Renovate Bot]

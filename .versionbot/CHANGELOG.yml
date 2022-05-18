@@ -1,4 +1,18 @@
 - commits:
+    - subject: Test autumndb relationship validation
+      hash: c97ae66097d54de78909505f4c24bffc83da3f0c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.1.2
+  title: "'Test autumndb relationship validation'"
+  date: 2022-05-18T02:24:28.323Z
+- commits:
     - subject: Update internal-patch
       hash: 66f1d8ce56781052bc4943ac2c5d0e4ff7b9d1bf
       body: ""
