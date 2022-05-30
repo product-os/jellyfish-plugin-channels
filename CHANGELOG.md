@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 3.1.7 - 2022-05-30
+
+* Test worker [Josh Bowling]
+
 ## 3.1.6 - 2022-05-28
 
 * Update external-non-major (external non-major bumps) [Renovate Bot]
