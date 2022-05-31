@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 3.1.8 - 2022-05-31
+
+* Update @balena/jellyfish-logger from 5.0.34 to 5.1.0 [Renovate Bot]
+
 ## 3.1.7 - 2022-05-31
 
 * Update typescript from 4.6.4 to 4.7.2 [Renovate Bot]

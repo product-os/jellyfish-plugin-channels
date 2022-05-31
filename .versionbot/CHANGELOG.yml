@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-logger from 5.0.34 to 5.1.0
+      hash: 3799aa50153c3c480872bd9fd6f18a0fa7b975c2
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.1.8
+  title: "'Update @balena/jellyfish-logger from 5.0.34 to 5.1.0'"
+  date: 2022-05-31T22:00:33.714Z
+- commits:
     - subject: Update typescript from 4.6.4 to 4.7.2
       hash: d390d0814bb9190e1b31b74fe25d1c12dc69e2a6
       body: ""
