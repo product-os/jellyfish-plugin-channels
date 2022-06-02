@@ -4,6 +4,11 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 3.1.11 - 2022-06-02
+
+* Update @balena/jellyfish-worker from 27.2.1 to 27.3.0 [Renovate Bot]
+* Update typedoc from 0.22.16 to 0.22.17 [Renovate Bot]
+
 ## 3.1.10 - 2022-06-01
 
 * Update autumndb from 20.0.7 to 20.1.0 [Renovate Bot]
