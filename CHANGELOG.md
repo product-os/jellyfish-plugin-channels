@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 3.1.14 - 2022-06-06
+
+* Update external-major (external major bumps) [Renovate Bot]
+
 ## 3.1.13 - 2022-06-03
 
 * Update typescript from 4.7.2 to 4.7.3 [Renovate Bot]
