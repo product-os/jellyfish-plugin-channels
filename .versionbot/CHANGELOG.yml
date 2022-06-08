@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 29.0.0 to 29.1.0
+      hash: 517fd3e74731a94db193aef785f8bf9857db2e41
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.2.1
+  title: "'Update @balena/jellyfish-worker from 29.0.0 to 29.1.0'"
+  date: 2022-06-08T22:39:34.338Z
+- commits:
     - subject: Add agent relationships
       hash: 2096a3d882f665a57320c8c13552f14655ad21c8
       body: ""
