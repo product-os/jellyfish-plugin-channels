@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 3.2.0 - 2022-06-08
+
+* Add agent relationships [Josh Bowling]
+
 ## 3.1.15 - 2022-06-08
 
 * Update @balena/jellyfish-worker from 28.0.0 to 29.0.0 [Josh Bowling]
