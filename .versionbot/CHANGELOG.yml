@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update internal packages
+      hash: 211b9a9ee60cd329b2954b4f5c10259b453cd148
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.2.2
+  title: "'Update internal packages'"
+  date: 2022-06-10T06:04:21.757Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 29.0.0 to 29.1.0
       hash: 517fd3e74731a94db193aef785f8bf9857db2e41
       body: ""
