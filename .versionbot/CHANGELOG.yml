@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update dependencies
+      hash: e6749e7a72c1011f0114d4415a8928eb74fe4d3d
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.2.3
+  title: "'Update dependencies'"
+  date: 2022-06-11T08:55:21.634Z
+- commits:
     - subject: Update internal packages
       hash: 211b9a9ee60cd329b2954b4f5c10259b453cd148
       body: ""

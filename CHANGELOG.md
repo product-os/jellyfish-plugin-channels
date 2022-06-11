@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 3.2.3 - 2022-06-11
+
+* Update dependencies [Josh Bowling]
+
 ## 3.2.2 - 2022-06-10
 
 * Update internal packages [Josh Bowling]
