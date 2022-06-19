@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 3.2.6 - 2022-06-19
+
+* Drop @balena/jellyfish-config [Josh Bowling]
+
 ## 3.2.5 - 2022-06-17
 
 * Update typescript from 4.7.3 to 4.7.4 [renovate[bot]]
