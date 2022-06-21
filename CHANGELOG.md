@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 3.2.7 - 2022-06-21
+
+* Bump dependencies [Josh Bowling]
+
 ## 3.2.6 - 2022-06-19
 
 * Drop @balena/jellyfish-config [Josh Bowling]
