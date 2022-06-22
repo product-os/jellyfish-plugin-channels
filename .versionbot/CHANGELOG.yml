@@ -1,4 +1,18 @@
 - commits:
+    - subject: Create triggered action on channel bootstrap
+      hash: b03bd7220904f9c5731745f7fa64854028a0a2ca
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.3.0
+  title: "'Create triggered action on channel bootstrap'"
+  date: 2022-06-22T03:05:59.082Z
+- commits:
     - subject: Bump dependencies
       hash: 4b8285a8e672b846ebf6769bca11152bc8d8ed80
       body: ""
