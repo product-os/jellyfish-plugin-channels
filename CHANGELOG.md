@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 3.3.0 - 2022-06-22
+
+* Create triggered action on channel bootstrap [Josh Bowling]
+
 ## 3.2.7 - 2022-06-21
 
 * Bump dependencies [Josh Bowling]
