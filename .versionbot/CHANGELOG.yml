@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update typedoc from 0.22.17 to 0.22.18
+      hash: c60682c6231648548f2133944b95ca467f958033
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 3.2.9
+  title: "'Update typedoc from 0.22.17 to 0.22.18'"
+  date: 2022-06-25T03:06:02.815Z
+- commits:
     - subject: Drop Makefile
       hash: f19b9f81afb8f857844fe53cb5ed3c5b4edcc1f2
       body: ""

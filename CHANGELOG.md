@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 3.2.9 - 2022-06-25
+
+* Update typedoc from 0.22.17 to 0.22.18 [renovate[bot]]
+
 ## 3.2.8 - 2022-06-22
 
 * Drop Makefile [Josh Bowling]
