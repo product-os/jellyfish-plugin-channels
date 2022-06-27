@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 3.2.11 - 2022-06-27
+
+* Update: update internal-patch (internal patch bumps) [renovate[bot]]
+
 ## 3.2.10 - 2022-06-27
 
 * Update dependencies (external v0 minor bumps) [renovate[bot]]
