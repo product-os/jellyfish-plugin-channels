@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 3.2.10 - 2022-06-27
+
+* Update dependencies (external v0 minor bumps) [renovate[bot]]
+
 ## 3.2.9 - 2022-06-25
 
 * Update typedoc from 0.22.17 to 0.22.18 [renovate[bot]]
