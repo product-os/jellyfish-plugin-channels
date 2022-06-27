@@ -1,5 +1,5 @@
 import type { Contract } from '@balena/jellyfish-types/build/core';
-import type { ChannelContract } from '../lib/types';
+import type { ChannelContract } from '../../lib/types';
 
 describe('channel', () => {
 	const channel: ChannelContract = {

@@ -35,21 +35,24 @@
     "build": "npm run clean && tsc -p tsconfig.build.json",
     "lint": "balena-lint lib test && deplint",
     "lint:fix": "balena-lint --fix lib test",
-    "test:unit": "jest",
+    "test:unit": "jest test/unit",
+    "test:integration": "jest --runInBand --bail test/integration",
     "test": "npm run lint && npm run test:unit",
     "doc": "typedoc lib/ && touch docs/.nojekyll",
     "prepack": "npm run build",
-    "types": "node ./scripts/generate-contract-interfaces && npm run lint:fix"
+    "compose": "docker-compose up"
   },
   "author": "Balena.io. <hello@balena.io>",
   "license": "AGPL-3.0",
   "dependencies": {
     "@balena/jellyfish-logger": "^5.1.6",
-    "@balena/jellyfish-worker": "^30.0.21",
+    "@balena/jellyfish-worker": "file:../jellyfish-worker/balena-jellyfish-worker-30.0.21.tgz",
     "lodash": "^4.17.21",
     "slugify": "^1.6.5"
   },
   "devDependencies": {
+    "@balena/jellyfish-plugin-default": "^27.8.13",
+    "@balena/jellyfish-plugin-product-os": "^7.0.27",
     "@balena/jellyfish-types": "^2.0.5",
     "@balena/lint": "^6.2.0",
     "@types/jest": "^28.1.2",

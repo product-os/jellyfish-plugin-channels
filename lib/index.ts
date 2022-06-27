@@ -8,7 +8,7 @@ export * from './types';
 const { version } = require('../package.json');
 
 /**
- * The Channels Jellyfish plugin.
+ * The Jellyfish channels plugin.
  */
 export const channelsPlugin = (): PluginDefinition => {
 	return {
