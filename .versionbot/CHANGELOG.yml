@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add deprecation notice to readme
+      hash: 80d30970d0b6fe0775ba9abd1d065eb69888caee
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.2.13
+  title: "'Add deprecation notice to readme'"
+  date: 2022-06-28T06:11:07.443Z
+- commits:
     - subject: "Update: update dependencies (internal patch bumps)"
       hash: d38598ac5e0cc1101da5b47e557b60b6168c7452
       body: ""

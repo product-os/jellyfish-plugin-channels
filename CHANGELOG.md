@@ -4,6 +4,10 @@
 * Add renovate config [Graham McCulloch]
 * Skeleton working code [Graham McCulloch]
 
+## 3.2.13 - 2022-06-28
+
+* Add deprecation notice to readme [Josh Bowling]
+
 ## 3.2.12 - 2022-06-27
 
 * Update: update dependencies (internal patch bumps) [renovate[bot]]
