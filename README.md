@@ -1,3 +1,5 @@
+**Notice: This utility has been discontinued. The functionality provided by this module has been merged into [jellyfish-worker](https://github.com/product-os/jellyfish-worker).**
+
 # Jellyfish Channels Plugin
 
 Provides a set of cards and actions for adding 'channels' functionality to Jellyfish.
